@@ -202,3 +202,56 @@ header {
 /* extra section styles */
 
 /* extra section styles */
+
+/* Subscription section styles */
+
+.subscription-container {
+  margin: 120px 200px;
+  padding: 120px 260px;
+  background: url("../images/rectangle-9.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.subs-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+
+.subs-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 45px;
+}
+
+.subs-bottom {
+  text-align: center;
+}
+
+form input[type="email"] {
+  width: 600px;
+  height: 55px;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 20px;
+  border: none;
+}
+
+form input[type="submit"] {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  background: #e55473;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 15px;
+  font-family: "Lato", sans-serif;
+}
