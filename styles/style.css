@@ -46,7 +46,7 @@ header {
   max-width: 630px;
 }
 
-.banner-btn button {
+.btn-primary button {
   padding: 20px 40px;
   border: none;
   border-radius: 10px;
@@ -125,4 +125,39 @@ header {
   padding-top: 80px;
   width: 310px;
   height: 470px;
+}
+
+/* Hot deal section */
+
+.deal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 400px;
+  gap: 100px;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.deal-title span {
+  color: #e55473;
+}
+
+.deal-text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.deal-left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
 }
