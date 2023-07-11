@@ -29,6 +29,10 @@ header {
   text-align: start;
 }
 
+.banner-right img {
+  vertical-align: bottom;
+}
+
 .banner-title {
   color: #272727;
   font-size: 80px;
@@ -128,6 +132,7 @@ header {
   padding-top: 80px;
   width: 310px;
   height: 470px;
+  vertical-align: bottom;
 }
 
 /* Hot deal section */
